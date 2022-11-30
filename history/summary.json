@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 2134,
-    "timeDay": 2134,
-    "timeWeek": 2134,
-    "timeMonth": 2134,
-    "timeYear": 2134,
+    "time": 2149,
+    "timeDay": 2149,
+    "timeWeek": 2149,
+    "timeMonth": 2149,
+    "timeYear": 2149,
     "dailyMinutesDown": {}
   },
   {
@@ -23,18 +23,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/api.github.com.ico",
     "slug": "stg-smoke-tests",
     "status": "down",
-    "uptime": "17.00%",
-    "uptimeDay": "17.00%",
-    "uptimeWeek": "17.00%",
-    "uptimeMonth": "17.00%",
-    "uptimeYear": "17.00%",
-    "time": 296,
-    "timeDay": 296,
-    "timeWeek": 296,
-    "timeMonth": 296,
-    "timeYear": 296,
+    "uptime": "96.54%",
+    "uptimeDay": "96.54%",
+    "uptimeWeek": "96.54%",
+    "uptimeMonth": "96.54%",
+    "uptimeYear": "96.54%",
+    "time": 280,
+    "timeDay": 280,
+    "timeWeek": 280,
+    "timeMonth": 280,
+    "timeYear": 280,
     "dailyMinutesDown": {
-      "2022-11-29": 0
+      "2022-11-29": 23
     }
   }
 ]
