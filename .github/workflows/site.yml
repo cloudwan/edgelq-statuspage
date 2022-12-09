@@ -31,6 +31,9 @@ jobs:
           command: "site"
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
+      - name: Debug
+        run:
+          ls site/status-page/__sapper__/export
       - uses: peaceiris/actions-gh-pages@v3.7.3
         name: GitHub Pages Deploy
         with:
