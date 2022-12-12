@@ -26,33 +26,20 @@ status-website:
   apiBaseUrl: https://api.github.com
   name: Edgelq Status Page
   introTitle: "**About this site**."
-  introMessage: The status page of the Edgelq Systems.
+  introMessage: "The status page of the Edgelq Systems.
+
+    It shows the current status of the systems and backend services.
+  Currently you can see status of:
+    * EdgeLQ API - runs a healthcheck on all our backend services to spot any problem with the API availbility for the external user. Hence it checks a number of services, it requires all of them to be healthy.
+    * STG Smoke Tests - checks the status of the most recent Smoke Test run - smoke tests are run in the background and verify that all our essential API endpoints work as expected.
+
+    If any check causes some problem (is down, unhealthy etc), or a downtime is scheduled by the EdgeLQ Team, it will be displayed on the top of the page. If situation happened, anyone interested with the updates in regards to that matter will be able to subscribe to the github issue created and releated to the incident/maintenance."
   css: "article > div:nth-child(3) {
           visibility: hidden;
           font-size: 0;
           padding: 0;
           margin: 0;
   }"
-  # js: " window.onload = function() { alert('Hello!') }"
-  # js: "alert('dupa');
-  #   window.('load', function(){
-  #   alert('dupa 1');
-  #   var u = document.getElementsByClassName('up link graph svelte-fqsq6s');
-  #   var uarr = Array.prototype.slice.call(u);
-  #   for (var i = 0; i < uarr.length; i++) {
-  #     console.log('Removing u avg');
-  #     uarr[i].childNodes[4].remove();
-  #   }
-
-  #   var d = document.getElementsByClassName('down link graph svelte-fqsq6s');
-  #   var darr = Array.prototype.slice.call(d);
-  #   for (var i = 0; i < darr.length; i++) {
-  #     console.log('Removing d avg');
-  #     darr[i].childNodes[4].remove();
-  #   }
-  #   console.log('Removed avg');
-  #   alert('dupa 2');
-  # });"
 
 
 workflowSchedule:
