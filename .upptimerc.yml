@@ -27,7 +27,7 @@ status-website:
   name: Edgelq Status Page
   introTitle: "**About this site**."
   introMessage: The status page of the Edgelq Systems.
-  js: "window.onload = function() { alert('Hello!') }"
+  js: " window.onload = function() { alert('Hello!') }"
   # js: "alert('dupa');
   #   window.('load', function(){
   #   alert('dupa 1');
