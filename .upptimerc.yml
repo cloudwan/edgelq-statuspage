@@ -27,25 +27,26 @@ status-website:
   name: Edgelq Status Page
   introTitle: "**About this site**."
   introMessage: The status page of the Edgelq Systems.
-  js: "alert('dupa');
-    document.addEventListener('load', function(){
-    alert('dupa 1');
-    var u = document.getElementsByClassName('up link graph svelte-fqsq6s');
-    var uarr = Array.prototype.slice.call(u);
-    for (var i = 0; i < uarr.length; i++) {
-      console.log('Removing u avg');
-      uarr[i].childNodes[4].remove();
-    }
+  js: "window.onload = function() { alert('Hello!') }"
+  # js: "alert('dupa');
+  #   window.('load', function(){
+  #   alert('dupa 1');
+  #   var u = document.getElementsByClassName('up link graph svelte-fqsq6s');
+  #   var uarr = Array.prototype.slice.call(u);
+  #   for (var i = 0; i < uarr.length; i++) {
+  #     console.log('Removing u avg');
+  #     uarr[i].childNodes[4].remove();
+  #   }
 
-    var d = document.getElementsByClassName('down link graph svelte-fqsq6s');
-    var darr = Array.prototype.slice.call(d);
-    for (var i = 0; i < darr.length; i++) {
-      console.log('Removing d avg');
-      darr[i].childNodes[4].remove();
-    }
-    console.log('Removed avg');
-    alert('dupa 2');
-  });"
+  #   var d = document.getElementsByClassName('down link graph svelte-fqsq6s');
+  #   var darr = Array.prototype.slice.call(d);
+  #   for (var i = 0; i < darr.length; i++) {
+  #     console.log('Removing d avg');
+  #     darr[i].childNodes[4].remove();
+  #   }
+  #   console.log('Removed avg');
+  #   alert('dupa 2');
+  # });"
 
 
 workflowSchedule:
