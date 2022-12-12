@@ -27,7 +27,9 @@ status-website:
   name: Edgelq Status Page
   introTitle: "**About this site**."
   introMessage: The status page of the Edgelq Systems.
-  js: "document.addEventListener('load', function(){
+  js: "alert('dupa');
+    document.addEventListener('load', function(){
+    alert('dupa 1');
     var u = document.getElementsByClassName('up link graph svelte-fqsq6s');
     var uarr = Array.prototype.slice.call(u);
     for (var i = 0; i < uarr.length; i++) {
@@ -42,7 +44,7 @@ status-website:
       darr[i].childNodes[4].remove();
     }
     console.log('Removed avg');
-    alert('Hello!');
+    alert('dupa 2');
   });"
 
 
