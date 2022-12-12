@@ -28,16 +28,16 @@ status-website:
   introTitle: "**About this site**."
   introMessage: The status page of the Edgelq Systems.
   js: 'window.onload = function() {
-    var u = document.getElementsByClassName("up link graph svelte-fqsq6s")
-    var uarr = Array.prototype.slice.call(u)
+    var u = document.getElementsByClassName("up link graph svelte-fqsq6s");
+    var uarr = Array.prototype.slice.call(u);
     for (var i = 0; i < uarr.length; i++) {
-      uarr[i].childNodes[4].remove()
+      uarr[i].childNodes[4].remove();
     }
 
-    var d = document.getElementsByClassName("down link graph svelte-fqsq6s")
-    var darr = Array.prototype.slice.call(d)
+    var d = document.getElementsByClassName("down link graph svelte-fqsq6s");
+    var darr = Array.prototype.slice.call(d);
     for (var i = 0; i < darr.length; i++) {
-      darr[i].childNodes[4].remove()
+      darr[i].childNodes[4].remove();
     }
   }'
 
