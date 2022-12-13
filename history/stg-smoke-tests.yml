@@ -1,7 +1,7 @@
 url: https://api.github.com/repos/cloudwan/qa/actions/workflows/25360914/runs?per_page=1&page=1&status=completed
 status: down
 code: 200
-responseTime: 309
-lastUpdated: 2022-12-13T15:06:29.146Z
+responseTime: 300
+lastUpdated: 2022-12-13T15:43:42.904Z
 startTime: Tue Nov 29 2022 13:29:13 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
