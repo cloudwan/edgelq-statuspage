@@ -26,8 +26,7 @@ status-website:
   apiBaseUrl: https://api.github.com
   name: Edgelq Status Page
   introTitle: "**About this site**."
-  introMessage: '
-The status page of the Edgelq Systems. It shows the current status of the systems and backend services.
+  introMessage: 'The status page of the Edgelq Systems. It shows the current status of the systems and backend services.
 
 ---
 
