@@ -28,25 +28,25 @@ status-website:
   introTitle: "About this site"
   # introMessage: "Test content"
   introMessage: |
-    The status page of the Edgelq Systems. It shows the current status of the systems and backend services.\n
-    Currently you can see status of:\n
-    - EdgeLQ API - runs a healthcheck on all our backend services to spot any problem with the API availbility for the external user. Hence it checks a number of services, it requires all of them to be healthy.\n
-    - STG Smoke Tests - checks the status of the most recent Smoke Test run - smoke tests are run in the background and verify that all our essential API endpoints work as expected.\n
+    The status page of the Edgelq Systems. It shows the current status of the systems and backend services.
+    Currently you can see status of:
+    - **EdgeLQ API** - runs a healthcheck on all our backend services to spot any problem with the API availbility for the external user. Hence it checks a number of services, it requires all of them to be healthy.
+    - **STG Smoke Tests** - checks the status of the most recent Smoke Test run - smoke tests are run in the background and verify that all our essential API endpoints work as expected.
       If any check causes some problem (is down, unhealthy etc), or a downtime is scheduled by the EdgeLQ Team, it will be displayed on the top of the page. If such situation happens, anyone interested with the updates in regards to that matter will be able to subscribe to the github issue created and releated to the incident/maintenance.'
-  customBodyHtml: '<div id="my_content"><p>The status page of the Edgelq Systems. It shows the current status of the systems and backend services.<br>
-    Currently you can see status of:</p><ul>
-    <li><b>EdgeLQ API</b> - runs a healthcheck on all our backend services to spot any problem with the API availbility for the external user. Hence it checks a number of services, it requires all of them to be healthy.
-    <li><b>STG Smoke Tests</b> - checks the status of the most recent Smoke Test run - smoke tests are run in the background and verify that all our essential API endpoints work as expected.</ul>
-    <p>If any check causes some problem (is down, unhealthy etc), or a downtime is scheduled by the EdgeLQ Team, it will be displayed on the top of the page. If such situation happens, anyone interested with the updates in regards to that matter will be able to subscribe to the github issue created and releated to the incident/maintenance.</p></div>'
-  js: '"use strict";
-    if(document.readyState === "complete") onLoad();
-    else addEventListener("load", onLoad);
+  # customBodyHtml: '<div id="my_content"><p>The status page of the Edgelq Systems. It shows the current status of the systems and backend services.<br>
+  #   Currently you can see status of:</p><ul>
+  #   <li><b>EdgeLQ API</b> - runs a healthcheck on all our backend services to spot any problem with the API availbility for the external user. Hence it checks a number of services, it requires all of them to be healthy.
+  #   <li><b>STG Smoke Tests</b> - checks the status of the most recent Smoke Test run - smoke tests are run in the background and verify that all our essential API endpoints work as expected.</ul>
+  #   <p>If any check causes some problem (is down, unhealthy etc), or a downtime is scheduled by the EdgeLQ Team, it will be displayed on the top of the page. If such situation happens, anyone interested with the updates in regards to that matter will be able to subscribe to the github issue created and releated to the incident/maintenance.</p></div>'
+  # js: '"use strict";
+  #   if(document.readyState === "complete") onLoad();
+  #   else addEventListener("load", onLoad);
 
-    function onLoad() {
-      var mContent = document.getElementById("my_content");
-      var mHeader = document.getElementsByTagName("header")[0];
-      mHeader.appendChild(mContent);
-  }'
+  #   function onLoad() {
+  #     var mContent = document.getElementById("my_content");
+  #     var mHeader = document.getElementsByTagName("header")[0];
+  #     mHeader.appendChild(mContent);
+  # }'
   css: 'article > div:nth-child(3) {
           visibility: hidden;
           font-size: 0;
