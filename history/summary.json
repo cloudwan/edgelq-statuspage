@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 2163,
-    "timeDay": 2112,
-    "timeWeek": 2152,
-    "timeMonth": 2163,
-    "timeYear": 2163,
+    "time": 2164,
+    "timeDay": 2150,
+    "timeWeek": 2155,
+    "timeMonth": 2164,
+    "timeYear": 2164,
     "dailyMinutesDown": {}
   },
   {
@@ -22,18 +22,19 @@
     "url": "https://api.github.com/repos/cloudwan/qa/actions/workflows/25360914/runs?per_page=1&page=1&status=completed",
     "icon": "https://icons.duckduckgo.com/ip3/api.github.com.ico",
     "slug": "stg-smoke-tests",
-    "status": "up",
+    "status": "down",
     "uptime": "99.90%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "99.90%",
     "uptimeYear": "99.90%",
-    "time": 257,
-    "timeDay": 245,
-    "timeWeek": 246,
-    "timeMonth": 257,
-    "timeYear": 257,
+    "time": 260,
+    "timeDay": 284,
+    "timeWeek": 249,
+    "timeMonth": 260,
+    "timeYear": 260,
     "dailyMinutesDown": {
+      "2022-12-15": 0,
       "2022-11-29": 23
     }
   }
