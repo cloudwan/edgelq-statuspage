@@ -12,7 +12,7 @@ sites:
     headers:
       - "Accept: application/vnd.github+json"
       - "Authorization: Bearer $GH_PAT"
-    # __dangerous__body_down_if_text_missing: '"conclusion": "success"'
+    __dangerous__body_down_if_text_missing: '"conclusion": "success"'
 
 
 
