@@ -29,10 +29,9 @@ status-website:
   # introMessage: "Test content"
   introMessage: |
     The status page of the Edgelq Systems. It shows the current status of the systems and backend services.
-    Currently you can see status of:
-    - **EdgeLQ API** - runs a healthcheck on all our backend services to spot any problem with the API availbility for the external user. Hence it checks a number of services, it requires all of them to be healthy.
-    - **STG Smoke Tests** - checks the status of the most recent Smoke Test run - smoke tests are run in the background and verify that all our essential API endpoints work as expected.
-      If any check causes some problem (is down, unhealthy etc), or a downtime is scheduled by the EdgeLQ Team, it will be displayed on the top of the page. If such situation happens, anyone interested with the updates in regards to that matter will be able to subscribe to the github issue created and releated to the incident/maintenance.'
+    - **EdgeLQ API** - healthcheck for our backend services.
+    - **STG Smoke Tests** - check that our essential API endpoints work as expected.
+      In case of the incident/maintenance anyone interested with the updates can subscribe to the github issue created and linked on top of the page.
   css: 'article > div:nth-child(3) {
           visibility: hidden;
           font-size: 0;
