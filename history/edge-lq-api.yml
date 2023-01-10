@@ -1,7 +1,7 @@
 url: http://healthcheck.europe-west3.unagi.dev02.nttclouds.co/edgelq_api_healthcheck
 status: up
 code: 200
-responseTime: 2055
-lastUpdated: 2023-01-09T23:04:10.777Z
+responseTime: 1793
+lastUpdated: 2023-01-10T23:04:14.292Z
 startTime: Tue Nov 29 2022 13:29:10 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
